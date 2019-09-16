@@ -1,0 +1,62 @@
+h1 {
+    text-align: center;
+    margin-top: 75px;
+    margin-bottom: 10px;
+    border-color: #151713;
+    border-top-style: groove;
+    border-bottom-style: groove;
+    width: 60%;
+    margin-right: 20%;
+    margin-left: 20%;
+    min-width: 200px;
+}
+
+body {
+    font-family: Tahoma, Geneva, sans-serif;
+    color: #151713;
+}
+
+a {
+    text-decoration: none;
+    color: #6A765F;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #151713;
+}
+
+/*Navbar*/
+
+.bg-light {
+    background-color: #D5EDBF !important;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    top: 0px;
+}
+
+.footer {
+    bottom: 0;
+    background-color: #D5EDBF;
+    font-size: small;
+    text-align: center;
+    width: 100%;
+    padding: 10px 0px 0px 0px;
+    position: fixed;
+}
+
+
+#home-text {
+    text-align: center;
+    width: 100%;
+    font-size: 25px;
+}
+
+.about {
+    float: right;
+    padding: 20px;
+    padding-bottom: 55px;
+}
