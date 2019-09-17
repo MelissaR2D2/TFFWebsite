@@ -2,7 +2,7 @@ h1 {
     text-align: center;
     margin-top: 75px;
     margin-bottom: 10px;
-    border-color: #151713;
+    border-color: #A84827;
     border-top-style: groove;
     border-bottom-style: groove;
     width: 60%;
@@ -17,10 +17,13 @@ h2 {
 
 body {
     font-family: Tahoma, Geneva, sans-serif;
-    color: #151713;
-    background-image: url("https://www.publicdomainpictures.net/pictures/170000/velka/grunge-background-1463561860q6H.jpg");
+    color: #F8B448;
+    background-image: url("https://www.publicdomainpictures.net/pictures/60000/velka/old-paper-background-texture.jpg");
     background-repeat: no-repeat;
     background-size: auto;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-fill-color: #A84827;
 
 }
 
