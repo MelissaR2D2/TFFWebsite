@@ -48,6 +48,9 @@ a:hover {
     position: fixed;
 }
 
+.padding {
+    padding: 20px;
+}
 
 #home-text {
     text-align: center;
