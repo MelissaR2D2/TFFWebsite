@@ -11,6 +11,9 @@ h1 {
     min-width: 200px;
 }
 
+h2 {
+    text-align: center;
+}
 body {
     font-family: Tahoma, Geneva, sans-serif;
     color: #151713;
