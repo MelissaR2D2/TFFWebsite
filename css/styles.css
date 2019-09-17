@@ -14,6 +14,7 @@ h1 {
 h2 {
     text-align: center;
 }
+
 body {
     font-family: Tahoma, Geneva, sans-serif;
     color: #151713;
@@ -62,9 +63,20 @@ a:hover {
 }
 
 .about {
-    float: right;
-    padding: 20px;
-    padding-bottom: 55px;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+
+}
+
+/* Pictures */
+
+#selfie {
+    height: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Grid stuff */
