@@ -48,6 +48,9 @@ a:hover {
     position: fixed;
 }
 
+.padding {
+    padding: 20px;
+}
 
 #home-text {
     text-align: center;
@@ -59,4 +62,56 @@ a:hover {
     float: right;
     padding: 20px;
     padding-bottom: 55px;
+}
+
+/* Grid stuff */
+
+html {
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+/* The Masonry Container */
+
+.masonry {
+    column-gap: 1em;
+}
+
+/* The Masonry Brick */
+
+.item {
+    background: #eee;
+    display: inline-block;
+    margin: 0 0 1em;
+    width: 100%;
+}
+
+/* Masonry on large screens */
+
+@media only screen and (min-width: 1024px) {
+    .masonry {
+        column-count: 4;
+    }
+}
+
+/* Masonry on medium-sized screens */
+
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+    .masonry {
+        column-count: 3;
+    }
+}
+
+/* Masonry on small screens */
+
+@media only screen and (max-width: 767px) and (min-width: 540px) {
+    .masonry {
+        column-count: 2;
+    }
 }
