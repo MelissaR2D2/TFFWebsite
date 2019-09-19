@@ -52,6 +52,7 @@ a:hover {
 
 .navbar {
     position: fixed;
+    z-index: 1;
     width: 100%;
     top: 0px;
     font-family: fantasy !important;
@@ -120,11 +121,6 @@ html {
     padding: 0em 1em;
 }
 
-.offers {
-    column-gap: 0em;
-    padding: 0em 1em;
-}
-
 .reviews {
     padding-top: 100px;
 }
@@ -157,10 +153,7 @@ html {
     border-color: #A84827;
     border-style: solid;
     background: #eee;
-    display: inline-block;
-    width: 100%;
-    height: 200px;
-    padding: 65px 10px;
+    padding: 30px 10px;
     text-align: center;
     font-size: 3em;
     font-family: Impact, Charcoal, sans-serif !important;
@@ -182,9 +175,6 @@ html {
     .masonry {
         column-count: 4;
     }
-    .offers {
-        column-count: 2;
-    }
 }
 
 /* Masonry on medium-sized screens */
@@ -193,18 +183,12 @@ html {
     .masonry {
         column-count: 3;
     }
-    .offers {
-        column-count: 2;
-    }
 }
 
 /* Masonry on small screens */
 
 @media only screen and (max-width: 767px) and (min-width: 540px) {
     .masonry {
-        column-count: 2;
-    }
-    .offers {
         column-count: 2;
     }
 }
