@@ -108,10 +108,19 @@ html {
     box-sizing: inherit;
 }
 
+#disclaimer {
+    text-align: right;
+}
+
 /* The Masonry Container */
 
 .masonry {
     column-gap: 1em;
+    padding: 0em 1em;
+}
+
+.masonry2 {
+    column-gap: 0em;
     padding: 0em 1em;
 }
 
@@ -131,11 +140,35 @@ html {
     background: #F8B448;
 }
 
+.item2 {
+    border-color: #A84827;
+    border-style: solid;
+    background: #eee;
+    display: inline-block;
+    width: 100%;
+    height: 150px;
+    padding: 65px 10px;
+    text-align: center;
+}
+
+.topLeft {
+    border-right: none;
+    border-bottom: none;
+}
+
+.bottomRight {
+    border-top: none;
+    border-left: none;
+}
+
 /* Masonry on large screens */
 
 @media only screen and (min-width: 1024px) {
     .masonry {
         column-count: 4;
+    }
+    .masonry2 {
+        column-count: 2;
     }
 }
 
@@ -145,12 +178,18 @@ html {
     .masonry {
         column-count: 3;
     }
+    .masonry2 {
+        column-count: 2;
+    }
 }
 
 /* Masonry on small screens */
 
 @media only screen and (max-width: 767px) and (min-width: 540px) {
     .masonry {
+        column-count: 2;
+    }
+    .masonry2 {
         column-count: 2;
     }
 }
