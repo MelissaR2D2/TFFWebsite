@@ -9,10 +9,16 @@ h1 {
     margin-right: 20%;
     margin-left: 20%;
     min-width: 200px;
+    font-family: serif !important;
 }
 
 h2 {
     text-align: center;
+    font-family: fantasy !important;
+}
+
+#our-party {
+    padding-top: 1em;
 }
 
 body {
@@ -48,6 +54,7 @@ a:hover {
     position: fixed;
     width: 100%;
     top: 0px;
+    font-family: fantasy !important;
 }
 
 .footer {
@@ -68,6 +75,7 @@ a:hover {
     text-align: center;
     width: 100%;
     font-size: 25px;
+    font-family: serif !important;
 }
 
 .about {
