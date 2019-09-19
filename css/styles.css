@@ -110,6 +110,7 @@ html {
 
 #disclaimer {
     text-align: right;
+    padding: 10px;
 }
 
 /* The Masonry Container */
@@ -119,9 +120,17 @@ html {
     padding: 0em 1em;
 }
 
-.masonry2 {
+.offers {
     column-gap: 0em;
     padding: 0em 1em;
+}
+
+.review {
+    background: #eee;
+    margin: 10px;
+    height: 150px;
+    padding: 10px;
+    text-align: center;
 }
 
 /* The Masonry Brick */
@@ -140,7 +149,7 @@ html {
     background: #F8B448;
 }
 
-.item2 {
+.offer {
     border-color: #A84827;
     border-style: solid;
     background: #eee;
@@ -167,7 +176,7 @@ html {
     .masonry {
         column-count: 4;
     }
-    .masonry2 {
+    .offers {
         column-count: 2;
     }
 }
@@ -178,7 +187,7 @@ html {
     .masonry {
         column-count: 3;
     }
-    .masonry2 {
+    .offers {
         column-count: 2;
     }
 }
@@ -189,7 +198,7 @@ html {
     .masonry {
         column-count: 2;
     }
-    .masonry2 {
+    .offers {
         column-count: 2;
     }
 }
